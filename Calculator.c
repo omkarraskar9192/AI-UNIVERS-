@@ -21,5 +21,6 @@ int main() {
       printf("Error: Division by zero\n");
     }
   }
-    return 0;
+    return 0
+
 }
