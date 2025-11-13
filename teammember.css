@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+body{
+   background-image: url("image-32.png");
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logoname{
+    color: rgb(21, 191, 226);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 50px;
+}
+h1{
+    color:white;
+    background: none;
+    margin: 20px;
+}
+p{
+    color:white;
+    background: none;
+    margin: 20px;
+    font-size: 20px;
+}
+.team-member{
+    margin: 20px;
+    border: 1px solid white;
+    height: 700px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#Box1{
+    color:white;
+}
+footer{
+    background-color: black;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    height: 40px;
+}
+footer a{
+    color:white;
+    font-size: 20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
