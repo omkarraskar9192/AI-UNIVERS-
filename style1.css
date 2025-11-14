@@ -5,15 +5,15 @@
     background-size: cover;
 }
 body{
-   background-image: url("image-32.png");
+     max-width: 100%;
+    background-image: url("image-32.png");
+    height: auto;
 }
 header{
-    height: 60px;
+    height: 7%;
     width: 100%;
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+   justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #logoname{
@@ -23,6 +23,7 @@ header{
     text-decoration: none;
 }
 header a{
+    
     color: white;
     text-decoration: none;
     font-size: 18px;
