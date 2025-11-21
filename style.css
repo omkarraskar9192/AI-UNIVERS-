@@ -64,16 +64,18 @@ p{
     border-radius: 10px;
 }
 .content .FileofC{
-    width: 50%;
+    width: 46%;
     height: 20%;
     background-color: rgb(21, 191, 226);
     text-align: center;
     line-height: 17vh;
     font-size: 1.8rem;
-    padding: 1.5vh;
+   
+    margin: 2vh;
     font-weight: bold;
     border-radius: 10px;
-    display: inline;
+    display: inline-flex;
+    justify-content: center;
   
 }
 footer{
