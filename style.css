@@ -6,36 +6,38 @@
     background-size: cover;
 }
 body{
-    max-width: 100%;
+    width: 100vw;
     background-image: url("image-32.png");
-    height: auto;
+    min-height: 100vh;
 }
-header{
-    height: 7%;
-    width: 100%;
+.Nevigation{
+   
+padding: 2vh;
+    width: 100vw;
     background-color: black;
     justify-content: space-around;
-    
-        font-family: "Poiret One", sans-serif;}
+font-family: "Poiret One", sans-serif;}
 
 #logoname{
     color: rgb(21, 191, 226);
-    font-size: 24px;
+    font-size: 2.1rem;
     font-weight: bold;
     text-decoration: none;
     font-family: "Lexend Giga", sans-serif;
 }
-.Into{
+
+body{
     font-family: "Alumni Sans Pinstripe", sans-serif;
-    font-size: 4vh;
+    font-size: 2rem;
 }
 header a{
     color: white;
     text-decoration: none;
-    font-size:2vh;
-    font-weight: normal;
-    margin-right: 10%;
-    margin-top: 5%;
+    font-size:1.5rem;
+    margin: 1vw;
+    padding: 0.5vh;
+    display: inline-block;
+
 }
 h1{
     color:white;
@@ -86,4 +88,17 @@ footer a{
     color:white;
     font-size: 20px ;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.team-member{
+    margin: 20px;
+    border: 1px solid white;
+    height: 700px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#Box1{
+    color:white;
 }
